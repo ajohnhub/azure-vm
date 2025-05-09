@@ -55,59 +55,40 @@ For Size, select Standard_d2ls_v5 (2 vcpus)
 <p>While creating the VM, allow it to create a new Virtual Network (VNet).
 
 <img src="https://github.com/user-attachments/assets/1f706119-05ed-4219-82e1-88a6d06b6498" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  
-</p>
-
-<p>
-
-<img src="https://github.com/user-attachments/assets/311f1cf4-f770-45a5-aba7-960268113dfa" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  
-</p>
-
-
-</p>
-<br />
-
-<p>
-Create a text file on your local desktop.
-  
-<img src="https://github.com/user-attachments/assets/2e504d87-6259-4f53-806c-0e799e0723d5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/user-attachments/assets/c8f196f4-3f76-4aa7-ac4c-6ff63f83f096" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-</br>
-<p>
-  
-Create a Container within your Storage Account and upload the text file you created to the Azure Storage Account.
-
-<img src="https://github.com/user-attachments/assets/beb81741-3fd4-40d3-9834-b5fa897d2f76" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 
 </p>
 </br>
 
-<p>
+<p> Check the licensing box and create the Virtual Machine.
 
-Edit the file within the Storage Account (For example, I added the word "Goodbye"), then download the file.
+<img src="https://github.com/user-attachments/assets/68268649-a9b6-434d-82e0-9c25f633e9f2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/edff4163-da56-4f1d-a957-1d054e7fe9fb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+</br>
+
+
+<p>Create a Linux (Ubuntu) VM. 
+Make sure to select the previously created Resource Group and Virtual Network.
+
+<img src="https://github.com/user-attachments/assets/623feb52-0e79-4ef8-8ca2-71566aee9f9e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+</br>
+
+<p> Choose Ubuntu Server 22 as the Image and the same Size as the Windows VM.
+<img src="https://github.com/user-attachments/assets/fabe4839-3c53-434f-8602-2ac2a6434b7e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/5f9f069e-d2de-420c-b1ce-e553b34f3cdc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
-<img src="https://github.com/user-attachments/assets/bee9e0e8-12a8-4088-a7a1-530139df3a3a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/user-attachments/assets/70fd1f29-b9fd-41e1-ba6b-5106ff1891c0" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
 </p>
 </br>
 
 <p>
-Open the file and observe the changes.
+Make sure the Virtual Network IS THE SAME. Then, review & create the Linux VM.
 
-<img src="https://github.com/user-attachments/assets/f9b6cb13-49ac-401b-b4d4-166ab382cdf9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-</br>
-
-<p>
   
-Finally, delete the Resource Group created in step 4 (to ensure you don’t incur “cost”) & verify that the Resource Group has been deleted.
+<img src="https://github.com/user-attachments/assets/7a43c9e9-b5d2-4c50-a70a-f4fbe252de54" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://github.com/user-attachments/assets/d98d6c40-97df-4f1c-a130-82f70b4a6aa7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-</p>
+</p> 
 </br>
+
